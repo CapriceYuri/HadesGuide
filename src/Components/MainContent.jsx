@@ -44,9 +44,9 @@ export default function MainContent() {
                   ? `/Cover/hermes.png`
                   : obj.format === `video`
                   ? `/Cover/hades-vid.png`
-                  : obj.format === `video`
-                  ? `/Cover/arms.png`
-                  : `/Cover/${obj.cover}`
+                  : obj.cover !== undefined
+                  ? `/Cover/${obj.cover}`
+                  : `Cover/arms.png`
               }
               alt={`${obj.cover}`}
               className="object-cover object-center h-[240px] min-h-[200px]"
