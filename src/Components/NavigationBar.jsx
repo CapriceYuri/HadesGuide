@@ -25,7 +25,7 @@ export default function NavigationBar() {
         color="orange"
       >
         <a
-          href="https://hades2-leader-board.vercel.app/"
+          href="https://hades2-heat-run.vercel.app/"
           className="flex items-center hover:text-red-500"
         >
           Heat 2 Leaderboard
