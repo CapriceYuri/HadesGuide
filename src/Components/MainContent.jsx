@@ -49,20 +49,20 @@ export default function MainContent() {
                   : `Cover/arms.png`
               }
               alt={`${obj.cover}`}
-              className="object-cover object-center h-[240px] min-h-[200px]"
+              className="object-cover object-center w-full h-[200px] min-h-[200px]"
             />
           </CardHeader>
           <CardBody className="p-3">
             <Typography
+              variant="small"
               color="light-blue"
               className="font-customFont font-bold text-center"
             >
               {obj.title}
             </Typography>
             <Typography
-              variant="small"
               color="white"
-              className="mt-3 font-customFont"
+              className="mt-3 font-customFont text-[10px] sm:text-[12px]"
             >
               {obj.purpose === undefined
                 ? obj.summary

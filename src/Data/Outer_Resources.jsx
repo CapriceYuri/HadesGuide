@@ -4,7 +4,7 @@ export const outerResources = [
     summary: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.`,
     date: `3/19/24`,
     src: "https://store.steampowered.com/app/1145360/Hades/",
-    cover: `hermes.png`,
+    cover: `placeholder.png`,
     author: ["hades", "hades1"],
     format: "text",
   },
