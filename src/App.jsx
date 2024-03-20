@@ -5,7 +5,7 @@ import MainContent from "./Components/MainContent";
 function App() {
   return (
     <section className="h-lvh overflow-x-hidden">
-      <div className="fixed bg-[black] h-lvh w-full object-cover -z-10" />
+      <div className="fixed bg-[#28282b] h-lvh w-full object-cover -z-10" />
       <NavigationBar />
       <MainContent />
       <PageFooter />
