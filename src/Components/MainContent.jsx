@@ -42,26 +42,38 @@ export default function MainContent() {
     {
       label: "All",
       value: "all",
+      icon: "all.png",
       object: outerResources,
     },
     {
       label: "Speedrun",
       value: "speedrun",
+      icon: "speedrun.png",
       object: speedrunContent,
     },
     {
       label: "Infernal",
       value: "infernal",
+      icon: "hammer.png",
       object: guideContent,
     },
   ];
 
   return (
     <Tabs value="all">
-      <TabsHeader className="my-8 mx-4 sm:mx-auto max-w-[600px]">
-        {data.map(({ label, value }) => (
-          <Tab key={value} value={value}>
-            {label}
+      <TabsHeader
+        className="my-8 mx-4 sm:mx-auto max-w-[600px] bg-transparent border-none border-white"
+        indicatorProps={{
+          className:
+            "bg-transparent border-b-2 border-blue-400 shadow-none rounded-none",
+        }}
+      >
+        {data.map(({ label, value, icon }) => (
+          <Tab key={value} value={value} className="text-white font-customFont">
+            <div className="flex items-center gap-1">
+              <Avatar src={icon} size="sm" variant="rounded" />
+              {label}
+            </div>
           </Tab>
         ))}
       </TabsHeader>
