@@ -91,7 +91,9 @@ export default function MainContent() {
             <section className="max-w-[1800px] 2xl:mx-auto my-10 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-8 lg:px-8">
               {object.map((obj, index) => (
                 <Card
-                  className="max-w-[400px] flex flex-col justify-between bg-[#28282b] shadow-[inset_0_0_50px_black] border-[2px] border-[#28282b]"
+                  color="gray"
+                  variant="gradient"
+                  className="max-w-[400px] flex flex-col justify-between bg-[#28282b] shadow-[inset_0_0_20px_black] border-[2px] border-[#28282b]"
                   key={index}
                   shadow={false}
                 >
