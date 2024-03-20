@@ -24,7 +24,7 @@ const guideContent = outerResources.filter((obj) => obj.purpose === "Guide");
 
 export default function MainContent() {
   function authorLabel(arr) {
-    if (arr.length > 0) {
+    if (arr.length > 0 && arr.length < 3) {
       return arr.map((author, index) => (
         <Tooltip key={index} content={author} className="font-customFont">
           <Avatar
@@ -35,7 +35,15 @@ export default function MainContent() {
         </Tooltip>
       ));
     } else {
-      return null;
+      return arr.map((author, index) => (
+        <Tooltip key={index} content={author} className="font-customFont">
+          <Avatar
+            src={`/Author/${arr[index]}.png`}
+            size="sm"
+            className="border-2 border-black"
+          />
+        </Tooltip>
+      ));
     }
   }
   const data = [
@@ -147,7 +155,7 @@ export default function MainContent() {
                       </Button>
                     </span>
                     <div>
-                      <div className="flex items-center -space-x-5">
+                      <div className="flex items-center -space-x-4">
                         {authorLabel(obj.author)}
                       </div>
                     </div>

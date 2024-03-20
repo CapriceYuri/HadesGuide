@@ -1,10 +1,11 @@
 export const outerResources = [
   {
+    details: "Hades Guide Compendium",
     aspect: `Testing`,
-    summary: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.`,
-    date: `3/19/24`,
-    src: "https://store.steampowered.com/app/1145360/Hades/",
-    author: ["hades", "hades1"],
+    summary: `Everything for Hades. A collection of general information, weapon/aspect guides, speedrun guides, and etc.`,
+    date: ``,
+    src: "https://www.speedrun.com/hades/guides/1i726",
+    author: ["perfectengrish"],
     format: "text",
   },
   {
