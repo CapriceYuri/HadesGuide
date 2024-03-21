@@ -2,7 +2,7 @@ export const wrData = [
   {
     weapon: "Sword",
     aspect: "Zagreus",
-    title: "Zagreus Sword",
+    title: "Zagreus Sword (57)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=9MIcM-chEDM",
     author: ["Retrash"],
@@ -12,7 +12,7 @@ export const wrData = [
   {
     weapon: "Sword",
     aspect: "Nemesis",
-    title: "Nemesis",
+    title: "Nemesis (58)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=rWmm1_1Dy3c",
     author: ["Jade"],
@@ -22,7 +22,7 @@ export const wrData = [
   {
     weapon: "Sword",
     aspect: "Poseidon",
-    title: "Poseidon",
+    title: "Poseidon (55)",
     type: "wr",
     src: "https://youtu.be/ftOMJ5scu3c",
     author: ["Retrash"],
@@ -32,7 +32,7 @@ export const wrData = [
   {
     weapon: "Sword",
     aspect: "Poseidon",
-    title: "Poseidon",
+    title: "Poseidon (55)",
     type: "wr",
     src: "https://youtu.be/TNrlr2it3lY",
     author: ["Jade"],
@@ -42,7 +42,7 @@ export const wrData = [
   {
     weapon: "Sword",
     aspect: "Arthur",
-    title: "Arthur",
+    title: "Arthur (57)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=YOF3YfqCwBE&ab_channel=NephiOH",
     author: ["NephiOH"],
@@ -52,7 +52,7 @@ export const wrData = [
   {
     weapon: "Spear",
     aspect: "Zagreus",
-    title: "Zagreus Spear",
+    title: "Zagreus Spear (57)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=XCH12JgnbEU&t=1s",
     author: ["Vaxon08"],
@@ -62,7 +62,7 @@ export const wrData = [
   {
     weapon: "Spear",
     aspect: "Achilles",
-    title: "Achilles",
+    title: "Achilles (60)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1214y1c767/#reply779270232",
     author: ["llzzqq"],
@@ -72,7 +72,7 @@ export const wrData = [
   {
     weapon: "Spear",
     aspect: "Hades",
-    title: "Hades",
+    title: "Hades (57)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=dZUfQ6Hn06Y",
     author: ["ocaml_ocaml"],
@@ -82,7 +82,7 @@ export const wrData = [
   {
     weapon: "Spear",
     aspect: "Hades",
-    title: "Hades",
+    title: "Hades (57)",
     type: "wr",
     src: "https://youtu.be/5rW3gFiqZDs",
     author: ["Jade"],
@@ -92,7 +92,7 @@ export const wrData = [
   {
     weapon: "Spear",
     aspect: "Guan Yu",
-    title: "Guan Yu",
+    title: "Guan Yu (64)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=pTelcLtfMG0",
     author: ["PlayAd"],
@@ -102,7 +102,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Zagreus",
-    title: "Zagreus Shield",
+    title: "Zagreus Shield (62)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1pe41127Me/",
     author: ["五维过客"],
@@ -112,7 +112,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Zagreus",
-    title: "Zagreus Shield",
+    title: "Zagreus Shield (62)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=FMgB_1blciY",
     author: ["Vaxon08"],
@@ -122,7 +122,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Zagreus",
-    title: "Zagreus Shield",
+    title: "Zagreus Shield (62)",
     type: "wr",
     src: "https://youtu.be/qtDp6fCcyS8",
     author: ["Jade"],
@@ -132,7 +132,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Chaos",
-    title: "Chaos",
+    title: "Chaos (62)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=uXrJWsuXpfw&t=1204s",
     author: ["Jade"],
@@ -142,7 +142,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Zeus",
-    title: "Zeus",
+    title: "Zeus (64)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1vC411W7b6/",
     author: ["银紙竹光"],
@@ -152,7 +152,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Zeus",
-    title: "Zeus",
+    title: "Zeus (64)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV17A4m137E5/",
     author: ["Mysterra"],
@@ -162,7 +162,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Zeus",
-    title: "Zeus",
+    title: "Zeus (64)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1hH4y1z7c9/",
     author: ["摆子哥"],
@@ -172,7 +172,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Zeus",
-    title: "Zeus",
+    title: "Zeus (64)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=it_5y7pWFlE",
     author: ["poshboy"],
@@ -182,7 +182,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Zeus",
-    title: "Zeus",
+    title: "Zeus (64)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1JG4y1S74t/",
     author: ["索方索"],
@@ -192,7 +192,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Zeus",
-    title: "Zeus",
+    title: "Zeus (64)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1Mf4y1p7t2",
     author: ["Baj"],
@@ -202,7 +202,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Zeus",
-    title: "Zeus",
+    title: "Zeus (64)",
     type: "wr",
     src: "https://youtu.be/0mo-kXjasZs",
     author: ["Jade"],
@@ -212,7 +212,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Beowulf",
-    title: "Beowulf",
+    title: "Beowulf (60)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1Rr4y1Z7et/",
     author: ["五维过客"],
@@ -222,7 +222,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Beowulf",
-    title: "Beowulf",
+    title: "Beowulf (60)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1BK4y1P7EW",
     author: ["ykc"],
@@ -232,7 +232,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Beowulf",
-    title: "Beowulf",
+    title: "Beowulf (60)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1o34y1h72o",
     author: ["芝心丹"],
@@ -242,7 +242,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Beowulf",
-    title: "Beowulf",
+    title: "Beowulf (60)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1TY411F7WS",
     author: ["索方索"],
@@ -252,7 +252,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Beowulf",
-    title: "Beowulf",
+    title: "Beowulf (60)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1vx4y1c7Nm/",
     author: ["孑虫"],
@@ -262,7 +262,7 @@ export const wrData = [
   {
     weapon: "Shield",
     aspect: "Beowulf",
-    title: "Beowulf",
+    title: "Beowulf (60)",
     type: "wr",
     src: "https://youtu.be/rk2OK2k2uDg",
     author: ["Jade"],
@@ -272,7 +272,7 @@ export const wrData = [
   {
     weapon: "Bow",
     aspect: "Zagreus",
-    title: "Zagreus Bow",
+    title: "Zagreus Bow (58)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=-_sUfxCQp_M",
     author: ["Timothy"],
@@ -282,7 +282,7 @@ export const wrData = [
   {
     weapon: "Bow",
     aspect: "Zagreus",
-    title: "Zagreus Bow",
+    title: "Zagreus Bow (58)",
     type: "wr",
     src: "https://youtu.be/fp717tGRbAU",
     author: ["Jade"],
@@ -292,7 +292,7 @@ export const wrData = [
   {
     weapon: "Bow",
     aspect: "Chiron",
-    title: "Chiron",
+    title: "Chiron (60)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=9GCbMbg75to",
     author: ["Timothy"],
@@ -302,7 +302,7 @@ export const wrData = [
   {
     weapon: "Bow",
     aspect: "Hera",
-    title: "Hera",
+    title: "Hera (57)",
     type: "wr",
     src: "https://youtu.be/1QkVDRppoJw",
     author: ["Jade"],
@@ -312,7 +312,7 @@ export const wrData = [
   {
     weapon: "Bow",
     aspect: "Rama",
-    title: "Rama",
+    title: "Rama (63)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=lQgBtOjaGt8",
     author: ["PlayAd"],
@@ -322,7 +322,7 @@ export const wrData = [
   {
     weapon: "Fists",
     aspect: "Zagreus",
-    title: "Zagreus Fists",
+    title: "Zagreus Fists (55)",
     type: "wr",
     src: "https://youtu.be/zrGTflRwNJI",
     author: ["Hadesprofessor"],
@@ -332,7 +332,7 @@ export const wrData = [
   {
     weapon: "Fists",
     aspect: "Zagreus",
-    title: "Zagreus Fists",
+    title: "Zagreus Fists (55)",
     type: "wr",
     src: "https://youtu.be/yN_X7mEgjR0",
     author: ["Jade"],
@@ -342,7 +342,7 @@ export const wrData = [
   {
     weapon: "Fists",
     aspect: "Talos",
-    title: "Talos",
+    title: "Talos (57)",
     type: "wr",
     src: "https://youtu.be/Sla0kPw69rg",
     author: ["Jade"],
@@ -352,7 +352,7 @@ export const wrData = [
   {
     weapon: "Fists",
     aspect: "Demeter",
-    title: "Demeter",
+    title: "Demeter (58)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=4XWHO8F8XCc",
     author: ["Jade"],
@@ -362,7 +362,7 @@ export const wrData = [
   {
     weapon: "Fists",
     aspect: "Gilgamesh",
-    title: "Gilgamesh",
+    title: "Gilgamesh (55)",
     type: "wr",
     src: "https://youtu.be/DumyWYJ1-F8",
     author: ["Jade"],
@@ -372,7 +372,7 @@ export const wrData = [
   {
     weapon: "Rail",
     aspect: "Zagreus",
-    title: "Zagreus Rail",
+    title: "Zagreus Rail (60)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=MYM8RTqXuH8&t=1470s",
     author: ["PlayAd"],
@@ -382,7 +382,7 @@ export const wrData = [
   {
     weapon: "Rail",
     aspect: "Eris",
-    title: "Eris",
+    title: "Eris (62)",
     type: "wr",
     src: "https://www.bilibili.com/video/BV1R14y1Z7HR",
     author: ["孑虫"],
@@ -392,7 +392,7 @@ export const wrData = [
   {
     weapon: "Rail",
     aspect: "Hestia",
-    title: "Hestia",
+    title: "Hestia (60)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=oBGrL7yJqNw",
     author: ["Timothy"],
@@ -402,7 +402,7 @@ export const wrData = [
   {
     weapon: "Rail",
     aspect: "Hestia",
-    title: "Hestia",
+    title: "Hestia (60)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=ZEUJzkO6KLo",
     author: ["NephiOH"],
@@ -412,7 +412,7 @@ export const wrData = [
   {
     weapon: "Rail",
     aspect: "Hestia",
-    title: "Hestia",
+    title: "Hestia (60)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=u4fOOByXBtI",
     author: ["Zyruvias"],
@@ -421,8 +421,8 @@ export const wrData = [
   },
   {
     weapon: "Rail",
-    aspect: "Hestia",
-    title: "Hestia",
+    aspect: "Lucifer",
+    title: "Lucifer (59)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=Z4umFW4lpyM",
     author: ["Jade"],
