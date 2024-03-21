@@ -70,10 +70,9 @@ export default function MainContent() {
   return (
     <Tabs value="all">
       <TabsHeader
-        className="my-8 mx-4 sm:mx-auto max-w-[600px] bg-transparent border-none border-white"
+        className="mt-8 mx-4 sm:mx-auto max-w-[600px] bg-transparent border-none shadow-[0_0_15px_white] p-2"
         indicatorProps={{
-          className:
-            "bg-transparent border-b-2 border-blue-400 shadow-none rounded-none",
+          className: "bg-transparent border-b-2 border-teal-500 rounded-sm",
         }}
       >
         {data.map(({ label, value, icon }) => (
