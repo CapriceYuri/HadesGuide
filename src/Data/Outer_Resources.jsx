@@ -1,5 +1,19 @@
 export const outerResources = [
   {
+    title: "Heat 32 Guide",
+    type: "Heat",
+    src: "https://www.leereamsnyder.com/i-whupped-hades-ass",
+    author: ["unexplainedbacn"],
+    format: "text",
+  },
+  {
+    type: "Heat",
+    title: "Heat Guide [0 to 32 Heat]",
+    src: "https://www.youtube.com/watch?v=CGl1vVnFPsw",
+    author: ["Haelian"],
+    format: "text",
+  },
+  {
     weapon: "Fists",
     aspect: "Demeter",
     type: "Speedrun",
