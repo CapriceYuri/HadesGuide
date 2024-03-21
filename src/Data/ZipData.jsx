@@ -13,6 +13,22 @@ export const FullZipData = [
     id: `Zeus64-Heroes`,
     type: `Heat 64`,
     location: `Heroes`,
-    date: "3/20/2024",
+    date: "-",
+  },
+  {
+    provider: "cgull",
+    img: `/Files/cgull.png`,
+    id: `FF-Hades`,
+    type: `Fresh File`,
+    location: `Hades`,
+    date: "-",
+  },
+  {
+    provider: "cgull",
+    img: `/Files/cgull.png`,
+    id: `FF-Heroes`,
+    type: `Fresh File`,
+    location: `Heroes`,
+    date: "-",
   },
 ];
