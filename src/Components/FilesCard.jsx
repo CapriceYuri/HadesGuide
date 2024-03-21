@@ -4,6 +4,7 @@ import {
   Button,
   CardBody,
   Avatar,
+  Tooltip,
 } from "@material-tailwind/react";
 
 import { FullZipData } from "../Data/ZipData";
@@ -77,13 +78,9 @@ export function DownloadZip() {
                     </Typography>
                   </td>
                   <td className={classes}>
-                    <Typography
-                      variant="small"
-                      color="amber"
-                      className="font-customFont"
-                    >
-                      {obj.location}
-                    </Typography>
+                    <Tooltip content={obj.location} className="font-customFont">
+                      <Avatar src={`/Cover/${obj.location}-icon.png`} />
+                    </Tooltip>
                   </td>
                   <td className={classes}>
                     <Button
