@@ -29,7 +29,7 @@ export default function MainContent() {
         <Tooltip key={index} content={author} className="font-customFont">
           <Avatar
             src={`/Author/${arr[index]}.png`}
-            size="md"
+            size="sm"
             className="border-2 border-black"
           />
         </Tooltip>
@@ -88,23 +88,21 @@ export default function MainContent() {
       <TabsBody>
         {data.map(({ value, object }) => (
           <TabPanel key={value} value={value}>
-            <section className="max-w-[1800px] 2xl:mx-auto my-10 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-8 lg:px-8">
+            <section className="max-w-[1800px] 2xl:mx-auto my-10 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-x-4 gap-y-8 lg:px-8">
               {object.map((obj, index) => (
                 <Card
-                  color="gray"
-                  variant="gradient"
-                  className="max-w-[400px] flex flex-col justify-between bg-[#28282b] shadow-[inset_0_0_20px_black] border-[2px] border-[#28282b]"
+                  className="max-w-[400px] flex flex-col justify-between bg-[#2d2d4a] shadow-[inset_0_0_30px_black] border-2 border-[black]"
                   key={index}
                   shadow={false}
                 >
                   <CardHeader
                     floated={false}
                     shadow={false}
-                    className="bg-transparent flex justify-between items-center px-4"
+                    className="bg-transparent mx-auto"
                   >
                     <Avatar
                       src={
-                        obj.purpose === `Speedrun Guide`
+                        obj.purpose === `Speedrun`
                           ? `/Cover/speedrun.png`
                           : obj.weapon !== undefined
                           ? `/Cover/arms.png`
@@ -115,6 +113,8 @@ export default function MainContent() {
                       alt={`${obj.cover}`}
                       className="object-cover"
                     />
+                  </CardHeader>
+                  <CardBody className="p-3">
                     <Typography
                       variant="small"
                       color="white"
@@ -122,25 +122,20 @@ export default function MainContent() {
                     >
                       {obj.purpose}
                     </Typography>
-                  </CardHeader>
-                  <CardBody className="p-3">
                     <Typography
-                      variant="h6"
-                      color="white"
+                      variant="h5"
+                      color="amber"
                       className="font-customFont font-bold text-center"
                     >
                       {obj.details}
                     </Typography>
-                    <Typography
-                      color="white"
-                      className="mt-3 font-customFont text-[10px] sm:text-[12px]"
-                    >
-                      {obj.purpose === undefined
-                        ? obj.summary
-                        : `The following is a Hades ${obj.purpose} on ${obj.details}.`}
-                    </Typography>
                   </CardBody>
                   <CardFooter className="p-4 flex flex-col gap-y-2">
+                    <div>
+                      <div className="flex justify-center -space-x-4">
+                        {authorLabel(obj.author)}
+                      </div>
+                    </div>
                     <span className="my-1 flex items-center">
                       <Button
                         variant="fill"
@@ -155,25 +150,10 @@ export default function MainContent() {
                           Read
                         </a>
                       </Button>
-                    </span>
-                    <div>
-                      <div className="flex items-center -space-x-4">
-                        {authorLabel(obj.author)}
-                      </div>
-                    </div>
-                    <span className="flex justify-between items-center">
-                      <div>
-                        <Typography
-                          className="font-customFont text-[12px]"
-                          color="white"
-                        >
-                          {obj.date}
-                        </Typography>
-                      </div>
                       <Chip
                         value={obj.format}
                         variant="filled"
-                        className="text-[8px] rounded-sm"
+                        className="text-[8px] ms-2 rounded-lg"
                         color={obj.format === `video` ? "yellow" : "blue"}
                       />
                     </span>
