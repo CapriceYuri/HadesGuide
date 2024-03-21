@@ -16,6 +16,7 @@ import {
 } from "@material-tailwind/react";
 
 import { outerResources } from "../Data/Outer_Resources";
+import { wrData } from "../Data/WR_Data";
 
 outerResources.sort((a, b) => (a.title > b.title ? 1 : -1));
 
@@ -51,10 +52,10 @@ export default function MainContent() {
   }
   const data = [
     {
-      label: "All",
-      value: "all",
-      icon: "all.png",
-      object: outerResources,
+      label: "HHWR VOD",
+      value: "wr",
+      icon: "wr.png",
+      object: wrData,
     },
     {
       label: "General",
@@ -83,7 +84,7 @@ export default function MainContent() {
   ];
 
   return (
-    <Tabs value="all">
+    <Tabs value="wr">
       <TabsHeader
         className=" flex flex-col md:flex-row mt-8 mx-4 lg:mx-auto max-w-[800px] bg-transparent border-none shadow-[0_0_15px_white] p-4"
         indicatorProps={{
@@ -125,6 +126,8 @@ export default function MainContent() {
                           ? `/Cover/speedrun.png`
                           : obj.type === `Heat`
                           ? `/heat.png`
+                          : obj.type === `wr`
+                          ? `${obj.skull}.png`
                           : obj.weapon !== undefined
                           ? `/Cover/arms.png`
                           : `/Cover/placeholder.png`
@@ -153,7 +156,7 @@ export default function MainContent() {
                     {obj.weapon !== undefined && (
                       <img
                         src={`/actual-arms/${obj.aspect}-${obj.weapon}.png`}
-                        className="rounded-2xl mx-auto my-2 shadow-[0_0_20px_pink]"
+                        className="rounded-2xl mx-auto my-3 shadow-[0_0_20px_pink]"
                         width={150}
                       />
                     )}
