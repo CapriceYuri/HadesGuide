@@ -59,7 +59,7 @@ export default function MainContent() {
     {
       label: "General",
       value: "general",
-      icon: "general.png",
+      icon: "/Cover/placeholder.png",
       object: generalContent,
     },
     {

@@ -1,5 +1,12 @@
 export const outerResources = [
   {
+    title: "How To Achieve A 32 Heat Run",
+    type: "Heat",
+    src: "https://www.dualshockers.com/hades-beating-pact-of-punishment-32-heat-run-guide/",
+    author: ["Thaddeus Kolwicz"],
+    format: "text",
+  },
+  {
     title: "Heat 32 Guide",
     type: "Heat",
     src: "https://www.leereamsnyder.com/i-whupped-hades-ass",
