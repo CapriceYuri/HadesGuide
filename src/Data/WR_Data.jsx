@@ -415,7 +415,7 @@ export const wrData = [
     title: "Hestia (60)",
     type: "wr",
     src: "https://www.youtube.com/watch?v=u4fOOByXBtI",
-    author: ["Zyruvias"],
+    author: ["zyruvias"],
     format: "video",
     skull: `skull3`,
   },
