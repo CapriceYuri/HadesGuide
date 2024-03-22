@@ -149,7 +149,7 @@ export default function MainContent() {
                     <Typography
                       variant="h6"
                       color="amber"
-                      className="font-customFont font-bold text-center"
+                      className="font-customFont text-center"
                     >
                       {obj.title}
                     </Typography>
