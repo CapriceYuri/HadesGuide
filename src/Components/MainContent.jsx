@@ -111,13 +111,27 @@ export default function MainContent() {
             <section className="max-w-[1800px] 2xl:mx-auto my-10 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-x-4 gap-y-8 lg:px-8">
               {object.map((obj, index) => (
                 <Card
-                  className="max-w-[400px] flex flex-col justify-between bg-[#2d2d4a] shadow-[inset_0_0_30px_black] border-2 border-[black]"
+                  className="max-w-[400px] flex flex-col justify-between bg-[#2d2d4a] shadow-[inset_0_0_30px_black] border-2 border-[black] relative z-10"
                   key={index}
                   shadow={false}
                 >
+                  {obj.skull === `skull4` && (
+                    <div
+                      className={`absolute h-full w-full bg-cover bg-center -z-10 bg-no-repeat bg-[url('/bg-three.gif')] opacity-60 rounded-lg`}
+                    />
+                  )}
+                  {obj.skull === `skull3` && (
+                    <div
+                      className={`absolute h-full w-full bg-cover bg-center -z-10 bg-no-repeat bg-[url('/bg-two.gif')] opacity-40 rounded-lg`}
+                    />
+                  )}
+                  {obj.skull === `skull2` && (
+                    <div
+                      className={`absolute h-full w-full bg-cover bg-center -z-10 bg-no-repeat bg-[url('/bg-one.gif')] opacity-30 rounded-lg`}
+                    />
+                  )}
                   <CardHeader
                     floated={false}
-                    shadow={false}
                     className="bg-transparent mx-auto"
                   >
                     <Avatar
@@ -156,7 +170,7 @@ export default function MainContent() {
                     {obj.weapon !== undefined && (
                       <img
                         src={`/actual-arms/${obj.aspect}-${obj.weapon}.png`}
-                        className="rounded-2xl mx-auto my-3 shadow-[0_0_20px_pink]"
+                        className="rounded-2xl mx-auto my-3 shadow-[0_0_15px_white]"
                         width={150}
                       />
                     )}
