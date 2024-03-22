@@ -122,6 +122,7 @@ export default function MainContent() {
                   )}
                   <CardHeader
                     floated={false}
+                    shadow={false}
                     className="bg-transparent mx-auto"
                   >
                     <Avatar
@@ -137,7 +138,7 @@ export default function MainContent() {
                           : `/Cover/placeholder.png`
                       }
                       variant="rounded"
-                      size="xl"
+                      size="lg"
                       alt={`${obj.cover}`}
                       className="object-contain"
                     />
