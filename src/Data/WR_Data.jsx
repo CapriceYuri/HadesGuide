@@ -325,7 +325,7 @@ export const wrData = [
     title: "Zagreus Fists (55)",
     type: "wr",
     src: "https://youtu.be/zrGTflRwNJI",
-    author: ["Hadesprofessor"],
+    author: ["hadesprofessor"],
     format: "video",
     skull: `skull2`,
   },

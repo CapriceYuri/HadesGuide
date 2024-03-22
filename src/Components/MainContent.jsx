@@ -117,17 +117,7 @@ export default function MainContent() {
                 >
                   {obj.skull === `skull4` && (
                     <div
-                      className={`absolute h-full w-full bg-cover bg-center -z-10 bg-no-repeat bg-[url('/bg-three.gif')] opacity-60 rounded-lg`}
-                    />
-                  )}
-                  {obj.skull === `skull3` && (
-                    <div
-                      className={`absolute h-full w-full bg-cover bg-center -z-10 bg-no-repeat bg-[url('/bg-two.gif')] opacity-40 rounded-lg`}
-                    />
-                  )}
-                  {obj.skull === `skull2` && (
-                    <div
-                      className={`absolute h-full w-full bg-cover bg-center -z-10 bg-no-repeat bg-[url('/bg-one.gif')] opacity-30 rounded-lg`}
+                      className={`absolute h-full w-full bg-cover bg-center -z-10 bg-no-repeat bg-[url('/bg-three.gif')] rounded-lg`}
                     />
                   )}
                   <CardHeader
