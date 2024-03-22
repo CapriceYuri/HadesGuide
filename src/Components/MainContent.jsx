@@ -152,7 +152,13 @@ export default function MainContent() {
                     </Typography>
                     <Typography
                       variant="h6"
-                      color="amber"
+                      color={
+                        obj.skull === `skull4`
+                          ? "red"
+                          : obj.skull === `skull3`
+                          ? "pink"
+                          : "amber"
+                      }
                       className="font-customFont text-center"
                     >
                       {obj.title}
