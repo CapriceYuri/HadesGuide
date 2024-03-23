@@ -1,6 +1,9 @@
 import NavigationBar from "./Components/NavigationBar";
 import PageFooter from "./Components/Footer";
 import MainContent from "./Components/MainContent";
+import { inject } from "@vercel/analytics";
+
+inject();
 
 function App() {
   return (
