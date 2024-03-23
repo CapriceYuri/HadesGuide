@@ -312,12 +312,12 @@ export const wrData = [
   {
     weapon: "Bow",
     aspect: "Rama",
-    title: "Rama (63)",
+    title: "Rama (64)",
     type: "wr",
-    src: "https://www.youtube.com/watch?v=lQgBtOjaGt8",
+    src: "https://www.youtube.com/watch?v=PQAWPUaUxTw",
     author: ["PlayAd"],
     format: "video",
-    skull: `skull3`,
+    skull: `skull4`,
   },
   {
     weapon: "Fists",

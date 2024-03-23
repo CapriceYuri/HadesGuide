@@ -117,7 +117,7 @@ export default function MainContent() {
                 >
                   {obj.skull === `skull4` && (
                     <div
-                      className={`absolute h-full w-full bg-cover bg-center -z-10 bg-no-repeat bg-[url('/bg-three.gif')] rounded-lg`}
+                      className={`absolute h-full w-full bg-cover bg-center -z-10 bg-no-repeat bg-[url('/bg-three.gif')] rounded-lg opacity-80`}
                     />
                   )}
                   <CardHeader
